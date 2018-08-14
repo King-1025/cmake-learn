@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/ar qc libdemo_0.a  CMakeFiles/demo_0.dir/demo-0.c.o
+/data/data/com.termux/files/usr/bin/ranlib libdemo_0.a

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/data/com.termux/files/home/cmake-learn/src/fun/fun.c
+stdio.h
+-
+fun.h
+/data/data/com.termux/files/home/cmake-learn/src/fun/fun.h
+
+/data/data/com.termux/files/home/cmake-learn/src/fun/fun.h
+

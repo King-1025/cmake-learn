@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/cc   -rdynamic CMakeFiles/temp.dir/main.c.o  -o bin/temp src/libdemo_0.a src/fun/libfun.a 

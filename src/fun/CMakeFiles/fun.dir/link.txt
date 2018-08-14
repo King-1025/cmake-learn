@@ -1,0 +1,2 @@
+/data/data/com.termux/files/usr/bin/ar qc libfun.a  CMakeFiles/fun.dir/fun.c.o
+/data/data/com.termux/files/usr/bin/ranlib libfun.a
