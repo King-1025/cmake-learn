@@ -1,0 +1,1 @@
+/data/data/com.termux/files/usr/bin/c++    -rdynamic CMakeFiles/wclean.dir/android-elf-cleaner.o  -o wclean 
