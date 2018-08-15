@@ -15,7 +15,7 @@ fi
 
 if [ ! -d ${BUILD_PATH} ]
 then
- echo "build-dir:${BUILD_PATH} is not exist! and create it"
+ echo "build-dir:${BUILD_PATH} is not exist and create it!"
  mkdir -p ${BUILD_PATH} > /dev/null
  if [ ! -d ${BUILD_PATH} ]
  then
@@ -23,10 +23,17 @@ then
    exit 1
  fi
 else
- echo "clean up build-dir"
- rm -rf ${BUILD_PATH}/*
+  echo "build-dir:${BUILD_PATH} is ok!"
+# echo "clean up build-dir"
+# rm -rf ${BUILD_PATH}/*
 fi
 
 cd ${BUILD_PATH}
 
-cmake .. && make
+if [ $2 ]
+then
+ cmake -DCMAKE_INSTALL_PREFIX=$2 ..
+else
+ cmake ..
+fi
+make
