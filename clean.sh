@@ -1,4 +1,4 @@
-#!/data/data/com.termux/files/usr/bin/bash
+#!/bin/bash
 
 PROJECT_DIR=./
 PROJECT_FILES=( . .. .git src CMakeLists.txt COPYRIGHT README.md build.sh clean.sh docs install.sh )
