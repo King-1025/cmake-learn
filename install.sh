@@ -10,7 +10,7 @@ make install
 
 cd ../
 
-echo '#!/data/data/com.termux/files/usr/bin/bash' > uninstall.sh
+echo '#!/bin/bash' > uninstall.sh
 echo "" >> ${BUILD_PATH}/install_manifest.txt
 
 while read line

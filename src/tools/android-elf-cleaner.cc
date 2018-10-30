@@ -19,6 +19,8 @@
 
 #define DT_ENTRY_0 0x6ffffef5
 
+#define nullptr NULL
+
 char *PRGNAME=NULL;
 
 template<typename ElfHeaderType /*Elf{32,64}_Ehdr*/,
